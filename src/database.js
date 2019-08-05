@@ -33,3 +33,8 @@ const db = new sqlite3.Database(DBSOURCE, (err) => {
 module.exports = db; // ???
 // eslint-error-on-next-line no-multiple-empty-lines
 
+/**
+ * комментарии к данному модулю, описаны в app.js
+ *
+ * reviewed by Petrov Aleksei
+ */
